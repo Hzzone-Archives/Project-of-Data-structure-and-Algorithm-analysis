@@ -90,7 +90,6 @@ void MainWindow::on_pushButton_3_clicked()
                 bool ok;
                 QString text = QInputDialog::getText(this, tr("请输入压缩密码"),
                                                      tr("compressing file secret code:"), QLineEdit::Password,
-               //选择解压文件路径,文件名比如test1.txt在前面加上decompress
                                                          QDir::home().dirName(), &ok);
                 //QString转化为char*
                 const char* p = (text.toStdString()).c_str();
