@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //
 // CALCULATOR.RC2 - resources Microsoft Visual C++ does not edit directly
 //
@@ -11,3 +12,18 @@
 // Add manually edited resources here...
 
 /////////////////////////////////////////////////////////////////////////////
+=======
+//
+// CALCULATOR.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+/////////////////////////////////////////////////////////////////////////////
+>>>>>>> c8e53e6cebb25bd81c804c3626305eefe06d7f69

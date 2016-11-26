@@ -60,6 +60,10 @@ string HuffmanCode(char* filename, map<unsigned char, string>& word_table){
 
 //将huffman编码写入文件, 并返回编码的长度
 //filename 为压缩文件
+<<<<<<< HEAD
+=======
+//第一个int为词汇表的个数，然后依次为char键，string长度(没有加一), string, 压缩文件的bit数,最后为Huffman编码
+>>>>>>> c8e53e6cebb25bd81c804c3626305eefe06d7f69
 void writeToFile(char* filename, const map<unsigned char, string>& table, const string& code, char* secret, const char* fileFormat){
     ofstream fout(filename, ios::binary);
     if(!fout.is_open()){
